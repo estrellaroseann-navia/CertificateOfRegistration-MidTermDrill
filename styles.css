@@ -203,10 +203,9 @@ section {
 }
 
 .smallbox-content{
-  margin-top: 1rem;
   margin-left: 1rem;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .smallbox-content-details{
@@ -217,7 +216,7 @@ section {
   margin-top: 2rem;
   margin-bottom: 1rem;
   margin-right: 1rem;
-  margin-left: 5rem;
+  margin-left: 2rem;
 }
 /*below content*/
 .total-assess{
