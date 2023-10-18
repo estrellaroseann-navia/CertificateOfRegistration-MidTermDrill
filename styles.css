@@ -109,7 +109,7 @@ section {
 }
 
 .subjects {
-  margin-left: 1%;
+  margin-left: 2.5rem;
   display: flex;
   gap: 2rem;
 }
@@ -154,12 +154,12 @@ section {
 }
 
 .line{
-  margin-left: 17.5rem;
+  margin-left: 19.5rem;
 }
 
 .tot{
   margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 2.5rem;
   display: flex;
   gap: 2rem;
 }
