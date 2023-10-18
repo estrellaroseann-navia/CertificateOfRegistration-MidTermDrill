@@ -6,6 +6,9 @@
 
  body{
     padding: 3rem;
+    aspect-ratio: 16 / 9;
+    flex-grow: 1;
+    position: fixed;
  }
 
  /* header */
