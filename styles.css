@@ -6,10 +6,21 @@
 
  body{
     padding: 3rem;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 1 / 2;
     flex-grow: 1;
     position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+
  }
+
+ /* media queries */
+ @media (max-width: 768px) {
+  body, header {
+    font-size: 12px;
+    margin: 10px;
+    padding: 5px;
+  }
+}
 
  /* header */
  header{
@@ -353,3 +364,6 @@
     justify-content: space-evenly;
     align-items: center;
   }
+
+
+  
