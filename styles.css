@@ -48,3 +48,114 @@
     padding: 0.3rem;
     border-bottom: solid black;
   }
+
+  .general-info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .gender-age {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .general-info-header-2 {
+    background-color: #ddccff;
+    padding: 0.3rem;
+    border-bottom: solid black;
+    border-top: solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .unit div {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .general-info-2 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: start;
+  }
+  
+  .subjects {
+    margin-left: 1%;
+    display: flex;
+    gap: 5rem;
+  }
+  
+  .units {
+    margin-left: 4rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .credits {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .block {
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .schedules {
+    font-size: 100%;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    
+  }
+  
+  .profs {
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .line{
+    margin-left: 27rem;
+  }
+  
+  .tot{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .total{
+    margin-left: 18rem;
+    margin-bottom: 2rem;
+  }
+  
+  .val1{
+    margin-left: 1.5rem;
+  }
+  
