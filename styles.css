@@ -1,374 +1,367 @@
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
- }
-
- body{
-    padding: 3rem;
-    aspect-ratio: 1 / 2;
-    flex-grow: 1;
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif;
- }
-
- /* media queries */
- @media (max-width: 768px) {
-  body {
-    font-size: 3vh;
-    margin: 10px;
-    padding: 5px;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
- /* header */
- header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
- }
+body {
+  padding: 3rem;
+  aspect-ratio: 1 / 1;
+  flex-grow: 1;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  background-color: #f0f0f0;
+}
 
- .logo-container{
-    margin-top: 3rem;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    gap: 3rem;
- }
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 
- .logo-container img{
-    max-width: 100px;
- }
+.certificate {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
- .registration-num h4 span {
-    color: red;
-  }
-  
-  main {
-    border: solid black;
-    min-height: 100vh;
-    position: fixed;
-  }
-  
-  section {
-    padding-bottom: 1rem;
-  }
-  
-  .general-info-header-1 {
-    background-color: #ddccff;
-    text-align: center;
-    padding: 0.3rem;
-    border-bottom: solid black;
-  }
+/* header */
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 
-  .general-info {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .info-container {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-  
-  .gender-age {
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .general-info-header-2 {
-    background-color: #ddccff;
-    padding: 0.3rem;
-    border-bottom: solid black;
-    border-top: solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .unit {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .unit div {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .general-info-2 {
-    margin-top: 2rem;
-    display: flex;
-    justify-content: start;
-  }
-  
-  .subjects {
-    margin-left: 1%;
-    display: flex;
-    gap: 5rem;
-  }
-  
-  .units {
-    margin-left: 4rem;
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .credits {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .block {
-    margin-left: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .schedules {
-    font-size: 100%;
-    margin-left: 4rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
-    
-  }
-  
-  .profs {
-    margin-left: 5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .details {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .line{
-    margin-left: 27rem;
-  }
-  
-  .tot{
-    margin-top: 1rem;
-    margin-left: 1rem;
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .total{
-    margin-left: 18rem;
-    margin-bottom: 2rem;
-  }
-  
-  .val1{
-    margin-left: 1.5rem;
-  }
-  
-  .note{
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    font-style: italic;
-  }
+.logo-container{
+  margin-top: 3rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 3rem;
+}
 
-  .middle-context{
-    margin-top: 2rem;
-    margin-left: 1rem;
-    display: flex;
-    gap: 2rem;
-    position: fixed;
-  }
-  
-  .smallbox1{
-    border: solid black;
-    min-height: 50vh;
-    width: 40rem;
-    margin-left: 1.5rem;
-    font-size: 90%;
-  }
-  .smallbox-header {
-    background-color: #ddccff;
-    padding: 0.3rem;
-    border-bottom: solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .top-text{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  .smallbox-content{
-    margin-top: 1rem;
-    margin-left: 1rem;
-    display: flex;
-    gap: 2rem;
-  }
-  
-  .smallbox-content-details{
-    margin-top: 1rem;
-  }
-  
-  .smallbox-content-prices{
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    margin-left: 5rem;
-  }
-  /*below content*/
-  .total-assess{
-    padding: 0.2rem;
-    border-bottom: solid black;
-    border-top: solid black;
-    display: flex;
-    justify-content: space-around;
-  }
-  .scho{
-    padding: 0.2rem;
-    border-bottom: solid black;
-    display: flex;
-    justify-content: space-around;
-  }
-  .scho1{
-    margin-right: 1.5rem;
-  }
-  
-  .total-pay{
-    padding: 0.2rem;
-    border-bottom: solid black;
-    display: flex;
-    justify-content: space-around;
-  }
-  .bal{
-    padding: 0.2rem;
-    display: flex;
-    justify-content: space-around;
-    margin-right: 1rem;
-  }
-  
-  .smallbox-end{
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  td, th{
-    border: 1px solid black;
-    text-align: center;
-  }
-  
-  .smallbox-header2{
-    background-color: #ddccff;
-    padding: 0.3rem;
-    border-top: solid black;
-    border-bottom: solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-weight: bold;
-  }
-  
-  .smallbox-content2{
-    margin-top: 1rem;
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2rem;
-  }
+.logo-container img{
+  max-width: 100px;
+}
 
-  .rulesss{
-    position: fixed;
-  }
-  
-  .rules{
-    margin-left: 5rem;
-    margin-top: 5rem;
-  }
-  
-  .rules1{
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  .rules-content{
-    margin-top: 2rem;
-    font-style: italic;
-  }
-  
-  .receipt{
-    font-weight: bold;
-    margin-top: 5rem;
-  }
-  
-  .val{
-    margin-top: 2rem;
-  }
-  
-  .note1{
-    margin-top: 2rem;
-    margin-left: 2rem;
-    display: flex;
-    gap: 2rem;
-    position: fixed;
-  }
-  
-  .approved{
-    margin-left: 4rem;
-    font-weight: bold;
-  }
-  
-  .signed{
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    align-items: center;
-  }
-  
-  .signed-text{
-    margin-left: 8rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-  }
-  
-  .name{
-    margin-left: 15rem;
-    margin-top: 1rem;
-  }
-  
-  .line2{
-    margin-right: 1rem;
-  }
-  
-  .regs{
-    margin-right: 1rem;
-    margin-left: 5.5rem;
-    font-weight: bold;
-  }
-  
-  .generated-date{
-    text-align: right;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    position: fixed;
-  }
-  
-  .footer{
-    background-color: #ddccff;
-    padding: 0.3rem;
-    border-top: solid black;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: fixed;
-  }
+.registration-num h4 span {
+  color: red;
+}
+
+main {
+  border: solid black;
+  min-height: 100vh;
+}
+
+section {
+  padding-bottom: 1rem;
+}
+
+.general-info-header-1 {
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.3rem;
+  border-bottom: solid black;
+}
+
+.general-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.gender-age {
+  display: flex;
+  gap: 2rem;
+}
+
+.general-info-header-2 {
+  background-color: #ddccff;
+  padding: 0.3rem;
+  border-bottom: solid black;
+  border-top: solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.unit div {
+  display: flex;
+  gap: 1rem;
+}
+
+.general-info-2 {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: start;
+}
+
+.subjects {
+  margin-left: 1%;
+  display: flex;
+  gap: 2rem;
+}
+
+.units {
+  margin-left: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.credits {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.block {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.schedules {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.profs {
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.line{
+  margin-left: 17.5rem;
+}
+
+.tot{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.total{
+  margin-left: 9.9rem;
+  margin-bottom: 2rem;
+}
+
+.val1{
+  margin-left: 1.5rem;
+}
+
+.note{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.smallbox1{
+  border: solid black;
+  min-height: 50vh;
+  width: 30rem;
+  margin-left: 1.5rem;
+  font-size: 90%;
+}
+.smallbox-header {
+  background-color: #ddccff;
+  padding: 0.3rem;
+  border-bottom: solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.top-text{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.smallbox-content{
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.smallbox-content-details{
+  margin-top: 1rem;
+}
+
+.smallbox-content-prices{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  margin-left: 5rem;
+}
+/*below content*/
+.total-assess{
+  padding: 0.2rem;
+  border-bottom: solid black;
+  border-top: solid black;
+  display: flex;
+  justify-content: space-around;
+}
+.scho{
+  padding: 0.2rem;
+  border-bottom: solid black;
+  display: flex;
+  justify-content: space-around;
+}
+.scho1{
+  margin-right: 1.5rem;
+}
+
+.total-pay{
+  padding: 0.2rem;
+  border-bottom: solid black;
+  display: flex;
+  justify-content: space-around;
+}
+.bal{
+  padding: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 1rem;
+}
+
+.smallbox-end{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.smallbox-header2{
+  background-color: #ddccff;
+  padding: 0.3rem;
+  border-top: solid black;
+  border-bottom: solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: bold;
+}
+
+.smallbox-content2{
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.middle-context{
+  margin-top: 2rem;
+  margin-left: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.rules{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 5rem;
+}
+
+.rules1{
+  text-align: center;
+  font-weight: bold;
+}
+
+.rules-content{
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+.receipt{
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.val{
+  margin-top: 2rem;
+}
+
+.note1{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.approved{
+  margin-left: 6rem;
+  font-weight: bold;
+}
+
+.signed{
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  margin-right: 2rem;
+}
+
+.signed-text{
+  margin-left: 6rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.name{
+  margin-left: 15rem;
+  margin-top: 1rem;
+}
+
+.line2{
+  margin-right: 2rem;
+}
+
+.regs{
+  margin-right: 1rem;
+  margin-left: 4rem;
+  font-weight: bold;
+}
+
+.generated-date{
+  text-align: right;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.footer{
+  background-color: #ddccff;
+  padding: 0.3rem;
+  border-top: solid black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
