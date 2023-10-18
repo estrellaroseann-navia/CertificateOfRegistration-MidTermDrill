@@ -28,3 +28,23 @@
  .logo-container img{
     max-width: 100px;
  }
+
+ .registration-num h4 span {
+    color: red;
+  }
+  
+  main {
+    border: solid black;
+    min-height: 100vh;
+  }
+  
+  section {
+    padding-bottom: 1rem;
+  }
+  
+  .general-info-header-1 {
+    background-color: #ddccff;
+    text-align: center;
+    padding: 0.3rem;
+    border-bottom: solid black;
+  }
