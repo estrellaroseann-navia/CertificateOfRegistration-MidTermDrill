@@ -1,5 +1,30 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+ }
+
+ body{
+    padding: 3rem;
+ }
+
+ /* header */
+ header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+ }
+
+ .logo-container{
+    margin-top: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+ }
+
+ .logo-container img{
+    max-width: 100px;
+ }
